@@ -4,8 +4,10 @@
  box-sizing: border-box;
 }
 html, body {
- height: 100%
+ height: 100%;
+ background: linear-gradient(to bottom, #22c1c3, #fdbb2d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 h1, h2, h3, h4, h5, h6, p {
- margin-bottom: 16px
+ margin-bottom: 16px;
+ color: whitesmoke;
 }

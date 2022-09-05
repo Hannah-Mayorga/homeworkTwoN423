@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,12 +9,46 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <!--Git test-->
-<body>
-    <div id="app">
 
+<body>
+    <!--Login/Signup Fancy Stuff-->
+    <div class="heading">
+        <h1 class="title">The Weather Man</h1>
     </div>
+    <div class="content">
+        <p>
+            The weather man app is perfect for displaying all your weather needs! That is expect
+            if you actually wanted to SEE the weather. Of course not! Because the designer of this app 
+            is a bit of an airhead and is completely brainfarting on how to display the API information, and
+            has also poorly managed time and now needs to move on to the next assignment. Very bad programmer. 
+            Well, you can at least find the data in the console.log()...hopefully everything is correct there or 
+            else the programmer gets a bad grade :( whomp whomp. Do better next time programmer. 
+            
+        </p>
+    </div>
+    <div id="app">
+        <div class="form">
+            <label for="location">Enter Your Location: </label>
+            <input id="gwInput" type="text" placeholder="I'm in...">
+            <button id="gw">Get Me My Weather(Man)</button>
+
+            <!--Currently Displays: Location-->
+            <br>
+            <h1>Displaying Weather For:</h1>
+            <h3 id="theWeather"></h3>
+
+            <!--Trying to use to display API Data-->
+            <div id="dataElement">
+
+            </div>
+        </div>
+    </div>
+    <footer>
+
+    </footer>
     <script src="lib/jquery-3.6.1.min.js"></script>
     <script type="module" src="app/model.js"></script>
     <script type="module" src="app/app.js"></script>
 </body>
+
 </html>
