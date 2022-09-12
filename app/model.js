@@ -1,4 +1,4 @@
-var key = "7c44f458d0ee4fff80c221314220409";
+var key = "53599ec288054906a0a203018222908";
 var baseURL = "http://api.weatherapi.com/v1/";
 
 // Built in functions to get full date
